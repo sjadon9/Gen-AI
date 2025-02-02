@@ -1,0 +1,13 @@
+prefix=/Users/shivangijadon/Desktop/udemy/gen ai/venv
+exec_prefix=/Users/shivangijadon/Desktop/udemy/gen ai/venv
+libdir=/Users/shivangijadon/Desktop/udemy/gen ai/venv/lib
+sharedlibdir=/Users/shivangijadon/Desktop/udemy/gen ai/venv/lib
+includedir=/Users/shivangijadon/Desktop/udemy/gen ai/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
